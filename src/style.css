@@ -125,3 +125,9 @@ body {
 .show-winner-message {
     display: flex;
 }
+
+.jogodavelha {    
+    margin: 500px auto;
+    width: 500px;
+    height: 800px;
+}

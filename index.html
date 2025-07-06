@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
-    
+
     <link rel="stylesheet" href="src/style.css">
 </head>
+
 <body>
+    <section class="jogodavelha">
         <div class="board x" data-board>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
@@ -19,11 +22,14 @@
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
         </div>
+    </section>
 
-        <div class="winner-message" data-winner-message>
-           <p class="winner-message-text" data-winner-message-text>X Venceu!</p>
-           <button data-restart>Reiniciar</button> 
-        </div>
+
+    <div class="winner-message" data-winner-message>
+        <p class="winner-message-text" data-winner-message-text>X Venceu!</p>
+        <button data-restart>Reiniciar</button>
+    </div>
     <script src="src/scripts.js"></script>
 </body>
+
 </html>
